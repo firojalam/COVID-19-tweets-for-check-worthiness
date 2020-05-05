@@ -1,2 +1,108 @@
-# COVID-19-tweets-for-check-worthiness
-COVID-19 Disinformation on Twitter dataset
+# COVID-19 Disinformation on Twitter dataset
+
+
+This repository contains a dataset consists of fine-grained disinformation related to COVID-19. The labels in the dataset answers seven different questions that are interests of journalists, fact-checkers, social media platforms, policy makers, and society as a whole. It has been annotated for Arabic and English.
+
+To label the dataset, we prepare a comprehensive annotation guidelines [1], which can help to label similar task in different domain. In addition, we launched annotation platforms to label tweets, where anyone can volunteer.
+
+## Help the community to label more data
+
+We also invite you to join us to label tweets related to COVID-19 disinformation.
+
+Please click the links below to label some tweets.
+
+* [English](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
+* [Arabic](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
+
+
+## Questions with the Associated Labels
+Below are the list of the questions and labels.
+
+**1. Does the tweet contain a verifiable factual claim?** <br/>
+*Labels:*
+* *YES:* if it contains a verifiable factual claim;
+* *NO:* if it does not contain a verifiable factual
+claim;
+* *Don’t know or can’t judge:* the content of the tweet does not have enough information to make a judgment. It is rec- ommended to categorize the tweet using this label when the content of the tweet is not un- derstandable at all. For example, it uses a language (i.e., non-English) or references that it is difficult to understand;
+
+**2. To what extent does the tweet appear to contain false information?** <br/>
+*Labels:*
+1. NO, definitely contains no false information
+2. NO, probably contains no false information
+3. Not sure
+4. YES, probably contains false information
+5. YES, definitely contains false information
+
+**3. Will the tweet’s claim have an effect on or be of interest to the general public?** <br/>
+*Labels:*
+1. NO, definitely not of interest
+2. NO, probably not of interest
+3. Not sure
+4. YES, probably of interest
+5. YES, definitely of interest
+
+**4. To what extent does the tweet appear to be harmful to society, person(s), company(s) or product(s)?** <br/>
+*Labels:*
+1. NO, definitely not harmful
+2. NO, probably not harmful
+3. Not sure
+4. YES, probably harmful
+5. YES, definitely harmful
+
+
+**5. Do you think that a professional fact-checker should verify the claim in the tweet?** <br/>
+*Labels:*
+1. NO, no need to check:
+2. NO, too trivial to check
+3. YES, not urgent
+4. YES, very urgent
+5. Not sure
+
+
+**6. Is the tweet harmful for society and why?** <br/>
+*Labels:*
+<ol type="A">
+<li>NO, not harmful</li>
+<li>NO, joke or sarcasm</li>
+<li>Not sure</li>
+<li>YES, panic</li>
+<li>YES, xenophobic, racist, prejudices, or hate-speech</li>
+<li>YES, bad cure</li>
+<li>YES, rumor, or conspiracy</li>
+<li>YES, other</li>
+</ol>
+
+**7. Do you think that this tweet should get the attention of any government entity?**  <br/>
+*Labels:*
+<ol type="A">
+<li>NO, not interesting</li>
+<li>Not sure</li>
+<li>YES, categorized as in question 6</li>
+<li>YES, other</li>
+<li>YES, blame authorities</li>
+<li>YES, contains advice</li>
+<li>YES, calls for action</li>
+<li>YES, discusses action taken</li>
+<li>YES, discusses cure</li>
+<li>YES, asks question</li>
+</ol>
+
+## Download the dataset
+
+Please feel free to download the dataset by simply filling up this [form](https://forms.gle/popezW4Lembnin637).
+
+
+## Please cite the following paper if you are using the data or annotation guidelines:
+
+1. *Firoj Alam, Shaden Shaar, Alex Nikolov, Hamdy Mubarak, Giovanni Da San Martino, Ahmed Abdelali, Fahim Dalvi, Nadir Durrani, Hassan Sajjad, Kareem Darwish, Preslav Nakov, "Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society", arxiv. 2020. [download](https://arxiv.org/pdf/2005.00033.pdf)*
+
+```bib
+@misc{alam2020fighting,
+    title={Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society},
+    author={Firoj Alam and Shaden Shaar and Alex Nikolov and Hamdy Mubarak and Giovanni Da San Martino and Ahmed Abdelali and Fahim Dalvi and Nadir Durrani and Hassan Sajjad and Kareem Darwish and Preslav Nakov},
+    year={2020},
+    eprint={2005.00033},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL}
+}
+```
