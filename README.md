@@ -14,6 +14,8 @@ Please click the links below to label some tweets.
 * [English](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
 * [Arabic](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
 
+![Example](etc/screenshot_example.png?raw=true "Annotation example")
+
 
 ## Questions with the Associated Labels
 Below are the list of the questions and labels.
