@@ -14,11 +14,12 @@ Please click the links below to label some tweets.
 * [English](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
 * [Arabic](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
 
+An example of annotation page is as follows: 
 ![Example](etc/screenshot_example.png?raw=true "Annotation example")
 
 
 ## Questions with the Associated Labels
-Below are the list of the questions and labels.
+Below is the list of the questions and labels.
 
 **1. Does the tweet contain a verifiable factual claim?** <br/>
 *Labels:*
