@@ -55,7 +55,7 @@ claim;
 
 **5. Do you think that a professional fact-checker should verify the claim in the tweet?** <br/>
 *Labels:*
-1. NO, no need to check:
+1. NO, no need to check
 2. NO, too trivial to check
 3. YES, not urgent
 4. YES, very urgent
