@@ -14,7 +14,7 @@ Please click the links below to label some tweets.
 * [English](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
 * [Arabic](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
 
-An example of annotation page is as follows:
+An example of the annotation page is as follows:
 ![Example](etc/screenshot_example.png?raw=true "Annotation example")
 
 
@@ -109,3 +109,6 @@ Please feel free to download the dataset by simply filling up this [form](https:
     primaryClass={cs.CL}
 }
 ```
+
+## Acknowledgment
+Thanks to the QCRI's [Crisis Computing](https://crisiscomputing.qcri.org/) team for facilitating us with [Micromappers](https://micromappers.qcri.org/).
