@@ -1,18 +1,24 @@
-# COVID-19 Disinformation on Twitter dataset
+# COVID-19 Infodemic Twitter dataset
 
 
-This repository contains a dataset consists of fine-grained disinformation related to COVID-19. The labels in the dataset answers seven different questions that are interests of journalists, fact-checkers, social media platforms, policy makers, and society as a whole. It has been annotated for Arabic and English.
+This repository contains a dataset consists of fine-grained disinformation related to COVID-19. The labels in the dataset answer seven different questions that are interests of journalists, fact-checkers, social media platforms, policymakers, and society as a whole. It has been annotated for Arabic and English.
 
-To label the dataset, we prepare a comprehensive annotation guidelines [1], which can help to label similar task in different domain. In addition, we launched annotation platforms to label tweets, where anyone can volunteer.
+To label the dataset, we prepare comprehensive annotation guidelines [1], which can help to label similar tasks in different domains. In addition, we launched an annotation platform to label tweets, where anyone can contribute to enrich the resources for the NLP research community.
 
 ## Help the community to label more data
 
 We also invite you to join us to label tweets related to COVID-19 disinformation.
 
-Please click the links below to label some tweets.
+<!--Please click the links below to label some tweets. -->
 
-* [English](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
-* [Arabic](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
+To annotate we recommend you to [register](https://micromappers.qcri.org/account/register) to [micromapper](https://micromappers.qcri.org/) and then [login](https://micromappers.qcri.org/account/signin) for the annotation. However, one can annotate with any registration.
+
+1.	Please go to any of the the following links
+  * [English](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
+  * [Arabic](https://micromappers.qcri.org/project/covid19-tweet-labelling/) <br/>
+Then, either click ***Start Contributing Now*** or ***Contribute***. This will lead to annotation instructions page. Please scroll down and click ***Start contributing***.
+2.	 You can now start annotating.
+
 
 An example of the annotation page is as follows:
 ![Example](etc/screenshot_example.png?raw=true "Annotation example")
