@@ -116,5 +116,22 @@ Please feel free to download the dataset by simply filling up this [form](https:
 }
 ```
 
+## CREDITS
+* Firoj Alam, Qatar Computing Research Institute, HBKU
+* Shaden Shaar, Qatar Computing Research Institute, HBKU
+* Alex Nikolov, Sofia University
+* Hamdy Mubarak, Qatar Computing Research Institute, HBKU
+* Giovanni Da San Martino, Qatar Computing Research Institute, HBKU
+* Ahmed Abdelali, Qatar Computing Research Institute, HBKU
+* Fahim Dalvi, Qatar Computing Research Institute, HBKU
+* Nadir Durrani, Qatar Computing Research Institute, HBKU
+* Hassan Sajjad, Qatar Computing Research Institute, HBKU
+* Kareem Darwish, Qatar Computing Research Institute, HBKU
+* Preslav Nakov, Qatar Computing Research Institute, HBKU
+
+
+## CONTACT
+Please contact tanbih@qcri.org
+
 ## Acknowledgment
 Thanks to the QCRI's [Crisis Computing](https://crisiscomputing.qcri.org/) team for facilitating us with [Micromappers](https://micromappers.qcri.org/).
