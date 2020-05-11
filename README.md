@@ -15,7 +15,7 @@ To annotate we recommend you to [register](https://micromappers.qcri.org/account
 
 1.	Please go to any of the the following links
   * [English](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
-  * [Arabic](https://micromappers.qcri.org/project/covid19-tweet-labelling/) <br/>
+  * [Arabic](https://micromappers.qcri.org/project/covid19-arabic-tweet-labelling/) <br/>
 Then, either click ***Start Contributing Now*** or ***Contribute***. This will lead to annotation instructions page. Please scroll down and click ***Start contributing***.
 2.	 You can now start annotating.
 
