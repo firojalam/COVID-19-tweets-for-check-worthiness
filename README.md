@@ -1,9 +1,9 @@
 # COVID-19 Infodemic Twitter dataset
 
 
-This repository contains a dataset consisting of fine-grained disinformation related to COVID-19. The labels in the dataset answer seven different questions that are interests of journalists, fact-checkers, social media platforms, policymakers, and society as a whole. It has been annotated for Arabic and English.
+This repository contains a dataset consisting of tweets annotated with fine-grained labels related to disinformation about COVID-19. The labels in the dataset answer seven different questions that are of interests to journalists, fact-checkers, social media platforms, policymakers, and society as a whole. There are annotated for Arabic and English.
 
-To label the dataset, we prepare comprehensive annotation guidelines [1], which can help to label similar tasks in different domains. In addition, we launched an annotation platform to label tweets, where anyone can contribute to enrich the resources for the NLP research community.
+To label the dataset, we prepared comprehensive annotation guidelines [1], which can help similar tasks in different domains. Moreover, we launched an annotation platform to label tweets, where anyone can contribute and help increase the size of the dataset, which we will be updating here periodically.
 
 ## Help the community to label more data
 
