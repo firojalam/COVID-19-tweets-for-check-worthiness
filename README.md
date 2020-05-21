@@ -128,13 +128,15 @@ Note that there are NA (i.e., null) entries in the TSV files that simply indicat
 ** Examples ** 
 Please don't take hydroxychloroquine (Plaquenil) plus Azithromycin for #COVID19 UNLESS your doctor prescribes it. Both drugs affect the QT interval of your heart and can lead to arrhythmias and sudden death, especially if you are taking other meds or have a heart condition.
 Labels:
-Q1: Yes; 
-Q2: NO: probably contains no false info
-Q3: YES: definitely of interest
-Q4: NO: probably not harmful
-Q5: YES:very-urgent
-Q6: NO:not-harmful
-	NO: YES:discusses_cure
+<ol type="A">
+	<li>Q1: Yes;</li>
+	<li>Q2: NO: probably contains no false info</li>
+	<li>Q3: YES: definitely of interest</li>
+	<li>Q4: NO: probably not harmful</li>
+	<li>Q5: YES:very-urgent</li>
+	<li>Q6: NO:not-harmful</li>
+	<li>	NO: YES:discusses_cure</li>
+</ol>
 
 BREAKING: @MBuhari’s Chief Of Staff, Abba Kyari, Reportedly Sick, Suspected Of Contracting #Coronavirus | Sahara Reporters A top government source told SR on Monday that Kyari has been seriously “down” since returning from a trip abroad. READ MORE: https://t.co/Acy5NcbMzQ https://t.co/kStp4cmFlr.
 Labels:
