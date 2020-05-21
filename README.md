@@ -84,9 +84,9 @@ claim;
 
 **7. Do you think that this tweet should get the attention of a government entity?**  <br/>
 *Labels:*
-Q1. NO, not interesting
-Q2. Not sure
 <ol type="A">
+	<li>NO, not interesting</li>
+	<li>Not sure</li>
 <li>YES, categorized as in question 6</li>
 <li>YES, other</li>
 <li>YES, blame authorities</li>
@@ -137,7 +137,7 @@ Labels:
 	<li>Q4: NO: probably not harmful</li>
 	<li>Q5: YES:very-urgent</li>
 	<li>Q6: NO:not-harmful</li>
-	<li>	NO: YES:discusses_cure</li>
+	<li>Q7:	NO: YES:discusses_cure</li>
 </ol>
 
 
@@ -160,15 +160,15 @@ Some statistics about the dataset
 
 ** Class label distribution of English tweets:
 Q1	504
-no	209
-yes	295
+1. no	209
+2. yes	295
 	
 Q2	295
-1_no_definitely_contains_no_false_info	47
-2_no_probably_contains_no_false_info	171
-3_not_sure	40
-4_yes_probably_contains_false_info	25
-5_yes_definitely_contains_false_info	12
+1. 1_no_definitely_contains_no_false_info	47
+2. 2_no_probably_contains_no_false_info	171
+3. 3_not_sure	40
+4. 4_yes_probably_contains_false_info	25
+5. 5_yes_definitely_contains_false_info	12
 
 	
 Q3	295
