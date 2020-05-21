@@ -125,7 +125,7 @@ Each TSV file in this directory contains the following columns, separated by a t
 
 Note that there are NA (i.e., null) entries in the TSV files that simply indicate "not applicable" cases. We label NA for question 2 to 5 when question 1 is labeled as NO. 
 
-** Examples ** 
+### Examples
 Please don't take hydroxychloroquine (Plaquenil) plus Azithromycin for #COVID19 UNLESS your doctor prescribes it. Both drugs affect the QT interval of your heart and can lead to arrhythmias and sudden death, especially if you are taking other meds or have a heart condition.
 Labels:
 <ol type="A">
@@ -138,15 +138,16 @@ Labels:
 	<li>	NO: YES:discusses_cure</li>
 </ol>
 
-BREAKING: @MBuhari’s Chief Of Staff, Abba Kyari, Reportedly Sick, Suspected Of Contracting #Coronavirus | Sahara Reporters A top government source told SR on Monday that Kyari has been seriously “down” since returning from a trip abroad. READ MORE: https://t.co/Acy5NcbMzQ https://t.co/kStp4cmFlr.
-Labels:
+
+**BREAKING: @MBuhari’s Chief Of Staff, Abba Kyari, Reportedly Sick, Suspected Of Contracting #Coronavirus | Sahara Reporters A top government source told SR on Monday that Kyari has been seriously “down” since returning from a trip abroad. READ MORE: https://t.co/Acy5NcbMzQ https://t.co/kStp4cmFlr.**  <br/>
+*Labels:*
 Q1: Yes; 
 Q2: NO: probably contains no false info
 Q3: YES: definitely of interest
 Q4: NO: definitely not harmful
 Q5: YES:not-urgent
 Q6: YES:rumor
-	NO: YES:classified_as_in_question_6
+NO: YES:classified_as_in_question_6
 
 
 STATISTICS
