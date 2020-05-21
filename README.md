@@ -1,4 +1,4 @@
-# COVID-19 Infodemic Dataset: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society
+# COVID-19 Infodemic Twitter Dataset: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society
 
 
 This repository contains a dataset consisting of tweets annotated with fine-grained labels related to disinformation about COVID-19. The labels answer seven different questions that are of interests to journalists, fact-checkers, social media platforms, policymakers, and society as a whole. There are annotations for Arabic and English.
@@ -97,6 +97,173 @@ claim;
 <li>YES, asks question</li>
 </ol>
 
+LIST OF VERSIONS
+================
+v1.0 [2020/05/01]: initial distribution of the annotated dataset
+* English data: 504 tweets
+* Arabic data: 218 tweets
+
+
+
+CONTENTS OF THE DISTRIBUTION AND DATA FORMAT
+===========================
+The directory contains the following two sub-directories:
+* Readme.txt this file
+
+1. "English": This directory contains tab-separated values (i.e., TSV) file, and one JSON file. The TSV file stores ground-truth annotations for the aforementioned tasks. The data format of these files is described in detail below. Each line in the JSON file corresponds to data from a single tweet stored in JSON format (as downloaded from Twitter).  
+
+2. "Arabic": Similarly to English, this directory contains one TSV file and one JSON file using the same format. 
+
+Format of the TSV files under the "annotations" directory
+---------------------------------------------------------
+Each TSV file in this directory contains the following columns, separated by a tab:
+
+* tweet_id: corresponds to the actual tweet id from Twitter.
+* tweet_text: corresponds to the original text of a given tweet as downloaded from Twitter.
+* q*_label (column 3-9): corresponds to the label for question 1 to 7.
+
+
+Note that there are NA (i.e., null) entries in the TSV files that simply indicate "not applicable" cases. We label NA for question 2 to 5 when question 1 is labeled as NO. 
+
+** Examples ** 
+Please don't take hydroxychloroquine (Plaquenil) plus Azithromycin for #COVID19 UNLESS your doctor prescribes it. Both drugs affect the QT interval of your heart and can lead to arrhythmias and sudden death, especially if you are taking other meds or have a heart condition.
+Labels:
+Q1: Yes; 
+Q2: NO: probably contains no false info
+Q3: YES: definitely of interest
+Q4: NO: probably not harmful
+Q5: YES:very-urgent
+Q6: NO:not-harmful
+	NO: YES:discusses_cure
+
+BREAKING: @MBuhari’s Chief Of Staff, Abba Kyari, Reportedly Sick, Suspected Of Contracting #Coronavirus | Sahara Reporters A top government source told SR on Monday that Kyari has been seriously “down” since returning from a trip abroad. READ MORE: https://t.co/Acy5NcbMzQ https://t.co/kStp4cmFlr.
+Labels:
+Q1: Yes; 
+Q2: NO: probably contains no false info
+Q3: YES: definitely of interest
+Q4: NO: definitely not harmful
+Q5: YES:not-urgent
+Q6: YES:rumor
+	NO: YES:classified_as_in_question_6
+
+
+STATISTICS
+=========
+Some statistics about the dataset
+
+** Class label distribution of English tweets:
+Q1	504
+no	209
+yes	295
+	
+Q2	295
+1_no_definitely_contains_no_false_info	47
+2_no_probably_contains_no_false_info	171
+3_not_sure	40
+4_yes_probably_contains_false_info	25
+5_yes_definitely_contains_false_info	12
+
+	
+Q3	295
+1_no_definitely_not_of_interest	9
+2_no_probably_not_of_interest	44
+3_not_sure	7
+4_yes_probably_of_interest	177
+5_yes_definitely_of_interest	58
+
+	
+Q4	295
+1_no_definitely_not_harmful	106
+2_no_probably_not_harmful	66
+3_not_sure	2
+4_yes_probably_harmful	67
+5_yes_definitely_harmful	54
+
+	
+Q5	295
+no_no_need_to_check	77
+no_too_trivial_to_check	57
+yes_not_urgent	112
+yes_very_urgent	49
+	
+Q6	504
+no_joke_or_sarcasm	62
+no_not_harmful	333
+not_sure	2
+yes_bad_cure	3
+yes_other	25
+yes_panic	23
+yes_rumor_conspiracy	42
+yes_xenophobic_racist_prejudices_or_hate_speech	14
+		
+Q6	504
+no_not_interesting	319
+not_sure	6
+yes_asks_question	2
+yes_blame_authorities	81
+yes_calls_for_action	8
+yes_classified_as_in_question_6	34
+yes_contains_advice	9
+yes_discusses_action_taken	12
+yes_discusses_cure	5
+yes_other	28
+
+
+** Class label distribution of Arabic tweets:
+Q1	218
+no	78
+yes	140
+	
+Q2	140
+1_no_definitely_contains_no_false_info	31
+2_no_probably_contains_no_false_info	62
+3_not_sure	5
+4_yes_probably_contains_false_info	40
+5_yes_definitely_contains_false_info	2
+
+	
+Q3	140
+1_no_definitely_not_of_interest	1
+2_no_probably_not_of_interest	5
+3_not_sure	9
+4_yes_probably_of_interest	76
+5_yes_definitely_of_interest	49
+
+	
+Q4	140
+1_no_definitely_not_harmful	68
+2_no_probably_not_harmful	21
+3_not_sure	3
+4_yes_probably_harmful	46
+5_yes_definitely_harmful	2
+
+	
+Q5	140
+no_no_need_to_check	22
+no_too_trivial_to_check	55
+yes_not_urgent	48
+yes_very_urgent	15
+	
+Q6	218
+no_joke_or_sarcasm	2
+no_not_harmful	159
+yes_bad_cure	1
+yes_other	5
+yes_panic	12
+yes_rumor_conspiracy	33
+yes_xenophobic_racist_prejudices_or_hate_speech	6
+	
+	
+Q7	218
+no_not_interesting	163
+yes_blame_authorities	13
+yes_calls_for_action	1
+yes_classified_as_in_question_6	30
+yes_contains_advice	1
+yes_discusses_cure	6
+yes_other	4
+
+
 ## Download the dataset
 
 To download the dataset, just fill up this [form](https://forms.gle/popezW4Lembnin637).
@@ -116,6 +283,9 @@ To download the dataset, just fill up this [form](https://forms.gle/popezW4Lembn
     primaryClass={cs.CL}
 }
 ```
+LICENSE
+=======
+This dataset is freely available for general research use.
 
 ## CREDITS
 * Firoj Alam, Qatar Computing Research Institute, HBKU
