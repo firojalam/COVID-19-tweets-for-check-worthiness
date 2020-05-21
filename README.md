@@ -159,9 +159,9 @@ STATISTICS
 Some statistics about the dataset
 
 ** Class label distribution of English tweets:
-Q1	504
-1. no	209
-2. yes	295
+** Q1	504**
+* no	209
+* yes	295
 	
 Q2	295
 1. 1_no_definitely_contains_no_false_info	47
