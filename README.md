@@ -158,8 +158,9 @@ STATISTICS
 =========
 Some statistics about the dataset
 
-** Class label distribution of English tweets:
-** Q1	504**
+** Class label distribution of English tweets:** <br/>
+
+** Q1	504** <br/>
 * no	209
 * yes	295
 	
