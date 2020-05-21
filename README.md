@@ -84,9 +84,9 @@ claim;
 
 **7. Do you think that this tweet should get the attention of a government entity?**  <br/>
 *Labels:*
+Q1. NO, not interesting
+Q2. Not sure
 <ol type="A">
-<li>NO, not interesting</li>
-<li>Not sure</li>
 <li>YES, categorized as in question 6</li>
 <li>YES, other</li>
 <li>YES, blame authorities</li>
