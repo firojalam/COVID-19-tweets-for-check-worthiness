@@ -1,7 +1,7 @@
-# COVID-19 Infodemic Twitter dataset
+# COVID-19 Infodemic Twitter dataset: modeling the perspective of journalists, fact-checkers, social media platforms, policymakers, and society as a whole
 
 
-This repository contains a dataset consisting of tweets annotated with fine-grained labels related to disinformation about COVID-19. The labels in the dataset answer seven different questions that are of interests to journalists, fact-checkers, social media platforms, policymakers, and society as a whole. There are annotated for Arabic and English.
+This repository contains a dataset consisting of tweets annotated with fine-grained labels related to disinformation about COVID-19. The labels answer seven different questions that are of interests to journalists, fact-checkers, social media platforms, policymakers, and society as a whole. There are annotations for Arabic and English.
 
 To label the dataset, we prepared comprehensive annotation guidelines [1], which can help similar tasks in different domains. Moreover, we launched an annotation platform to label tweets, where anyone can contribute and help increase the size of the dataset, which we will be updating here periodically.
 
@@ -16,23 +16,24 @@ To annotate we recommend you to [register](https://micromappers.qcri.org/account
 1.	Please go to any of the the following links
   * [English](https://micromappers.qcri.org/project/covid19-tweet-labelling/)
   * [Arabic](https://micromappers.qcri.org/project/covid19-arabic-tweet-labelling/) <br/>
-Then, either click ***Start Contributing Now*** or ***Contribute***. This will lead to annotation instructions page. Please scroll down and click ***Start contributing***.
+Then, either click ***Start Contributing Now*** or ***Contribute***. This will lead to a page with annotation instructions. Please, scroll down and click ***Start contributing***.
 2.	 You can now start annotating.
 
 
-An example of the annotation page is as follows:
+An example of the annotation page looks as follows:
 ![Example](etc/screenshot_example.png?raw=true "Annotation example")
 
 
 ## Questions with the Associated Labels
-Below is the list of the questions and labels.
+Below is the list of the questions and the possible labels (answers).
+See the paper below or the above micromappers links for detailed definition of the annotation guidelines.
 
 **1. Does the tweet contain a verifiable factual claim?** <br/>
 *Labels:*
 * *YES:* if it contains a verifiable factual claim;
 * *NO:* if it does not contain a verifiable factual
 claim;
-* *Don’t know or can’t judge:* the content of the tweet does not have enough information to make a judgment. It is rec- ommended to categorize the tweet using this label when the content of the tweet is not un- derstandable at all. For example, it uses a language (i.e., non-English) or references that it is difficult to understand;
+* *Don’t know or can’t judge:* the content of the tweet does not have enough information to make a judgment. It is recommended to categorize the tweet using this label when the content of the tweet is not understandable at all. For example, it uses a language (i.e., non-English) or references that are difficult to understand;
 
 **2. To what extent does the tweet appear to contain false information?** <br/>
 *Labels:*
@@ -77,11 +78,11 @@ claim;
 <li>YES, panic</li>
 <li>YES, xenophobic, racist, prejudices, or hate-speech</li>
 <li>YES, bad cure</li>
-<li>YES, rumor, or conspiracy</li>
+<li>YES, rumor or conspiracy</li>
 <li>YES, other</li>
 </ol>
 
-**7. Do you think that this tweet should get the attention of any government entity?**  <br/>
+**7. Do you think that this tweet should get the attention of a government entity?**  <br/>
 *Labels:*
 <ol type="A">
 <li>NO, not interesting</li>
@@ -98,16 +99,16 @@ claim;
 
 ## Download the dataset
 
-Please feel free to download the dataset by simply filling up this [form](https://forms.gle/popezW4Lembnin637).
+To download the dataset, just fill up this [form](https://forms.gle/popezW4Lembnin637).
 
 
-## Please cite the following paper if you are using the data or annotation guidelines:
+## Please cite the following paper if you are using the data or the annotation guidelines:
 
 1. *Firoj Alam, Shaden Shaar, Alex Nikolov, Hamdy Mubarak, Giovanni Da San Martino, Ahmed Abdelali, Fahim Dalvi, Nadir Durrani, Hassan Sajjad, Kareem Darwish, Preslav Nakov, "Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society", arxiv, 2020 [download](https://arxiv.org/pdf/2005.00033.pdf).*
 
 ```bib
 @misc{alam2020fighting,
-    title={Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society},
+    title={Fighting the {COVID-19} Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society},
     author={Firoj Alam and Shaden Shaar and Alex Nikolov and Hamdy Mubarak and Giovanni Da San Martino and Ahmed Abdelali and Fahim Dalvi and Nadir Durrani and Hassan Sajjad and Kareem Darwish and Preslav Nakov},
     year={2020},
     eprint={2005.00033},
