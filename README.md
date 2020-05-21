@@ -158,7 +158,7 @@ STATISTICS
 =========
 Some statistics about the dataset
 
-** Class label distribution of English tweets:** <br/>
+** Question--label distribution for the English tweets:** <br/>
 
 1. Q1	504
 * no	209
@@ -172,104 +172,104 @@ Some statistics about the dataset
 * 5_yes_definitely_contains_false_info	12
 
 	
-Q3	295
-1_no_definitely_not_of_interest	9
-2_no_probably_not_of_interest	44
-3_not_sure	7
-4_yes_probably_of_interest	177
-5_yes_definitely_of_interest	58
+3. Q3	295
+* 1_no_definitely_not_of_interest	9
+* 2_no_probably_not_of_interest	44
+* 3_not_sure	7
+* 4_yes_probably_of_interest	177
+* 5_yes_definitely_of_interest	58
 
 	
-Q4	295
-1_no_definitely_not_harmful	106
-2_no_probably_not_harmful	66
-3_not_sure	2
-4_yes_probably_harmful	67
-5_yes_definitely_harmful	54
+4. Q4	295
+* 1_no_definitely_not_harmful	106
+* 2_no_probably_not_harmful	66
+* 3_not_sure	2
+* 4_yes_probably_harmful	67
+* 5_yes_definitely_harmful	54
 
 	
-Q5	295
-no_no_need_to_check	77
-no_too_trivial_to_check	57
-yes_not_urgent	112
-yes_very_urgent	49
+5. Q5	295
+* no_no_need_to_check	77
+* no_too_trivial_to_check	57
+* yes_not_urgent	112
+* yes_very_urgent	49
 	
-Q6	504
-no_joke_or_sarcasm	62
-no_not_harmful	333
-not_sure	2
-yes_bad_cure	3
-yes_other	25
-yes_panic	23
-yes_rumor_conspiracy	42
-yes_xenophobic_racist_prejudices_or_hate_speech	14
+6. Q6	504
+* no_joke_or_sarcasm	62
+* no_not_harmful	333
+* not_sure	2
+* yes_bad_cure	3
+* yes_other	25
+* yes_panic	23
+* yes_rumor_conspiracy	42
+* yes_xenophobic_racist_prejudices_or_hate_speech	14
 		
-Q6	504
-no_not_interesting	319
-not_sure	6
-yes_asks_question	2
-yes_blame_authorities	81
-yes_calls_for_action	8
-yes_classified_as_in_question_6	34
-yes_contains_advice	9
-yes_discusses_action_taken	12
-yes_discusses_cure	5
-yes_other	28
+Q7	504
+* no_not_interesting	319
+* not_sure	6
+* yes_asks_question	2
+* yes_blame_authorities	81
+* yes_calls_for_action	8
+* yes_classified_as_in_question_6	34
+* yes_contains_advice	9
+* yes_discusses_action_taken	12
+* yes_discusses_cure	5
+* yes_other	28
 
 
-** Class label distribution of Arabic tweets:
-Q1	218
-no	78
-yes	140
+** Question--label distribution for the Arabic tweets:** <br/>
+1. Q1	218
+* no	78
+* yes	140
 	
-Q2	140
-1_no_definitely_contains_no_false_info	31
-2_no_probably_contains_no_false_info	62
-3_not_sure	5
-4_yes_probably_contains_false_info	40
-5_yes_definitely_contains_false_info	2
+2. Q2	140
+* 1_no_definitely_contains_no_false_info	31
+* 2_no_probably_contains_no_false_info	62
+* 3_not_sure	5
+* 4_yes_probably_contains_false_info	40
+* 5_yes_definitely_contains_false_info	2
 
 	
-Q3	140
-1_no_definitely_not_of_interest	1
-2_no_probably_not_of_interest	5
-3_not_sure	9
-4_yes_probably_of_interest	76
-5_yes_definitely_of_interest	49
+3. Q3	140
+* 1_no_definitely_not_of_interest	1
+* 2_no_probably_not_of_interest	5
+* 3_not_sure	9
+* 4_yes_probably_of_interest	76
+* 5_yes_definitely_of_interest	49
 
 	
-Q4	140
-1_no_definitely_not_harmful	68
-2_no_probably_not_harmful	21
-3_not_sure	3
-4_yes_probably_harmful	46
-5_yes_definitely_harmful	2
+4. Q4	140
+* 1_no_definitely_not_harmful	68
+* 2_no_probably_not_harmful	21
+* 3_not_sure	3
+* 4_yes_probably_harmful	46
+* 5_yes_definitely_harmful	2
 
 	
-Q5	140
-no_no_need_to_check	22
-no_too_trivial_to_check	55
-yes_not_urgent	48
-yes_very_urgent	15
+5. Q5	140
+* no_no_need_to_check	22
+* no_too_trivial_to_check	55
+* yes_not_urgent	48
+* yes_very_urgent	15
 	
-Q6	218
-no_joke_or_sarcasm	2
-no_not_harmful	159
-yes_bad_cure	1
-yes_other	5
-yes_panic	12
-yes_rumor_conspiracy	33
-yes_xenophobic_racist_prejudices_or_hate_speech	6
+6. Q6	218
+* no_joke_or_sarcasm	2
+* no_not_harmful	159
+* yes_bad_cure	1
+* yes_other	5
+* yes_panic	12
+* yes_rumor_conspiracy	33
+* yes_xenophobic_racist_prejudices_or_hate_speech	6
 	
 	
-Q7	218
-no_not_interesting	163
-yes_blame_authorities	13
-yes_calls_for_action	1
-yes_classified_as_in_question_6	30
-yes_contains_advice	1
-yes_discusses_cure	6
-yes_other	4
+7. Q7	218
+* no_not_interesting	163
+* yes_blame_authorities	13
+* yes_calls_for_action	1
+* yes_classified_as_in_question_6	30
+* yes_contains_advice	1
+* yes_discusses_cure	6
+* yes_other	4
 
 
 ## Download the dataset
