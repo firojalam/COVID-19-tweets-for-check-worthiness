@@ -125,7 +125,9 @@ Each TSV file in this directory contains the following columns, separated by a t
 
 Note that there are NA (i.e., null) entries in the TSV files that simply indicate "not applicable" cases. We label NA for question 2 to 5 when question 1 is labeled as NO. 
 
-### Examples
+Examples
+=========
+
 **Please don't take hydroxychloroquine (Plaquenil) plus Azithromycin for #COVID19 UNLESS your doctor prescribes it. Both drugs affect the QT interval of your heart and can lead to arrhythmias and sudden death, especially if you are taking other meds or have a heart condition.** <br/>
 Labels:
 <ol type="A">
