@@ -8,7 +8,12 @@ To label the dataset, we prepared comprehensive annotation guidelines [1], which
 __Table of contents:__
 - [Help the community to label more data](#call-for-arm)
 - [Tasks/Questions with Labels](#questions)
-- [Download the dataset](#download)
+- [List of versions](#versions)
+- [Contents of the Distribution](#content_distribution)
+  - [Directory Structure](#directorystructure)
+  - [Examples](#examples)
+  - [Statistics](#statistics)  
+- [Download](#download)
 - [Publication](#publication)
 - [Credits](#credits)
 - [Licensing](#licensing)
@@ -111,16 +116,20 @@ claim;
 <li>YES, asks question</li>
 </ol>
 
-LIST OF VERSIONS
-================
+## List of versions
+=================== <br/>
 v1.0 [2020/05/01]: initial distribution of the annotated dataset
 * English data: 504 tweets
 * Arabic data: 218 tweets
 
 
 
-CONTENTS OF THE DISTRIBUTION AND DATA FORMAT
-===========================
+## Contents of the Distribution
+=============================================== <br/>
+
+### Directory Structure
+=======================<br/>
+
 The directory contains the following two sub-directories:
 * Readme.txt this file
 
@@ -134,15 +143,15 @@ Each TSV file in this directory contains the following columns, separated by a t
 
 * tweet_id: corresponds to the actual tweet id from Twitter.
 * tweet_text: corresponds to the original text of a given tweet as downloaded from Twitter.
-* q*_label (column 3-9): corresponds to the label for question 1 to 7.
+* q*\_label (column 3-9): corresponds to the label for question 1 to 7.
 
 
 Note that there are NA (i.e., null) entries in the TSV files that simply indicate "not applicable" cases. We label NA for question 2 to 5 when question 1 is labeled as NO.
 
-Examples
-=========
+### Examples
+============<br/>
 
-**Please don't take hydroxychloroquine (Plaquenil) plus Azithromycin for #COVID19 UNLESS your doctor prescribes it. Both drugs affect the QT interval of your heart and can lead to arrhythmias and sudden death, especially if you are taking other meds or have a heart condition.** <br/>
+***Please don't take hydroxychloroquine (Plaquenil) plus Azithromycin for #COVID19 UNLESS your doctor prescribes it. Both drugs affect the QT interval of your heart and can lead to arrhythmias and sudden death, especially if you are taking other meds or have a heart condition.*** <br/>
 Labels:
 <ol type="A">
 	<li>Q1: Yes;</li>
@@ -155,7 +164,7 @@ Labels:
 </ol>
 
 
-**BREAKING: @MBuhari’s Chief Of Staff, Abba Kyari, Reportedly Sick, Suspected Of Contracting #Coronavirus | Sahara Reporters A top government source told SR on Monday that Kyari has been seriously “down” since returning from a trip abroad. READ MORE: https://t.co/Acy5NcbMzQ https://t.co/kStp4cmFlr.**  <br/>
+***BREAKING: @MBuhari’s Chief Of Staff, Abba Kyari, Reportedly Sick, Suspected Of Contracting #Coronavirus | Sahara Reporters A top government source told SR on Monday that Kyari has been seriously “down” since returning from a trip abroad. READ MORE: https://t.co/Acy5NcbMzQ https://t.co/kStp4cmFlr.***  <br/>
 *Labels:*
 <ol type="A">
 	<li>Q1: Yes; </li>
@@ -168,17 +177,18 @@ Labels:
 </ol>
 
 
-STATISTICS
-=========
+### Statistics
+=============<br/>
 Some statistics about the dataset
 
-** Question--label distribution for the English tweets:** <br/>
+#### English tweets:
 
-1. Q1	504
+
+1. Q1 = 504 labeled tweets
 * no	209
 * yes	295
 
-2. Q2	295
+2. Q2 = 295 labeled tweets
 * 1_no_definitely_contains_no_false_info	47
 * 2_no_probably_contains_no_false_info	171
 * 3_not_sure	40
@@ -186,7 +196,7 @@ Some statistics about the dataset
 * 5_yes_definitely_contains_false_info	12
 
 
-3. Q3	295
+3. Q3 = 295 labeled tweets
 * 1_no_definitely_not_of_interest	9
 * 2_no_probably_not_of_interest	44
 * 3_not_sure	7
@@ -194,7 +204,7 @@ Some statistics about the dataset
 * 5_yes_definitely_of_interest	58
 
 
-4. Q4	295
+4. Q4 = 295 labeled tweets
 * 1_no_definitely_not_harmful	106
 * 2_no_probably_not_harmful	66
 * 3_not_sure	2
@@ -202,13 +212,13 @@ Some statistics about the dataset
 * 5_yes_definitely_harmful	54
 
 
-5. Q5	295
+5. Q5 = 295 labeled tweets
 * no_no_need_to_check	77
 * no_too_trivial_to_check	57
 * yes_not_urgent	112
 * yes_very_urgent	49
 
-6. Q6	504
+6. Q6 = 504 labeled tweets
 * no_joke_or_sarcasm	62
 * no_not_harmful	333
 * not_sure	2
@@ -218,7 +228,7 @@ Some statistics about the dataset
 * yes_rumor_conspiracy	42
 * yes_xenophobic_racist_prejudices_or_hate_speech	14
 
-Q7	504
+7. Q7 = 504 labeled tweets
 * no_not_interesting	319
 * not_sure	6
 * yes_asks_question	2
@@ -231,12 +241,12 @@ Q7	504
 * yes_other	28
 
 
-** Question--label distribution for the Arabic tweets:** <br/>
-1. Q1	218
+#### Arabic tweets:
+1. Q1 = 218 labeled tweets
 * no	78
 * yes	140
 
-2. Q2	140
+2. Q2 = 140 labeled tweets
 * 1_no_definitely_contains_no_false_info	31
 * 2_no_probably_contains_no_false_info	62
 * 3_not_sure	5
@@ -244,7 +254,7 @@ Q7	504
 * 5_yes_definitely_contains_false_info	2
 
 
-3. Q3	140
+3. Q3 = 140 labeled tweets
 * 1_no_definitely_not_of_interest	1
 * 2_no_probably_not_of_interest	5
 * 3_not_sure	9
@@ -252,7 +262,7 @@ Q7	504
 * 5_yes_definitely_of_interest	49
 
 
-4. Q4	140
+4. Q4 = 140 labeled tweets
 * 1_no_definitely_not_harmful	68
 * 2_no_probably_not_harmful	21
 * 3_not_sure	3
@@ -260,13 +270,13 @@ Q7	504
 * 5_yes_definitely_harmful	2
 
 
-5. Q5	140
+5. Q5 = 140 labeled tweets
 * no_no_need_to_check	22
 * no_too_trivial_to_check	55
 * yes_not_urgent	48
 * yes_very_urgent	15
 
-6. Q6	218
+6. Q6 = 218 labeled tweets
 * no_joke_or_sarcasm	2
 * no_not_harmful	159
 * yes_bad_cure	1
@@ -276,7 +286,7 @@ Q7	504
 * yes_xenophobic_racist_prejudices_or_hate_speech	6
 
 
-7. Q7	218
+7. Q7 = 218 labeled tweets
 * no_not_interesting	163
 * yes_blame_authorities	13
 * yes_calls_for_action	1
@@ -286,7 +296,7 @@ Q7	504
 * yes_other	4
 
 
-## Download the dataset
+## Download
 
 To download the dataset, just fill up this [form](https://forms.gle/popezW4Lembnin637).
 
