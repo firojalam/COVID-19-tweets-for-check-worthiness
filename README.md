@@ -7,10 +7,10 @@ To label the dataset, we prepared comprehensive annotation guidelines [1], which
 
 __Table of contents:__
 - [Help the community to label more data](#callforarm)
-- [Tasks/Questions with Labels](#questions)
-- [List of versions](#versions)
-- [Contents of the Distribution](#content_distribution)
-  - [Directory Structure](#directorystructure)
+- [Questions with Labels](#questions-with-labels)
+- [List of Versions](#list-of-versions)
+- [Contents of the Distribution](#contents-of-the-distribution)
+  - [Directory Structure](#directory-structure)
   - [Examples](#examples)
   - [Statistics](#statistics)
 - [Download](#download)
@@ -42,7 +42,7 @@ An example of the annotation page looks as follows:
 
 
 
-## Tasks/Questions with Labels
+## Questions with Labels
 Below is the list of the questions and the possible labels (answers).
 See the paper below or the above micromappers links for detailed definition of the annotation guidelines.
 
@@ -116,7 +116,7 @@ claim;
 <li>YES, asks question</li>
 </ol>
 
-## List of versions
+## List of Versions
 =================== <br/>
 v1.0 [2020/05/01]: initial distribution of the annotated dataset
 * English data: 504 tweets
