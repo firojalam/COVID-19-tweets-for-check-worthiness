@@ -5,6 +5,18 @@ This repository contains a dataset consisting of fine-grained disinformation rel
 
 To label the dataset, we prepare comprehensive annotation guidelines [1], which can help to label similar tasks in different domains. In addition, we launched an annotation platform to label tweets, where anyone can contribute to enrich the resources for the NLP research community.
 
+__Table of contents:__
+- [Help the community to label more data](#call-for-arm)
+- [Tasks/Questions with Labels](#questions)
+- [Download the dataset](#download)
+- [Publication](#publication)
+- [Credits](#credits)
+- [Licensing](#licensing)
+- [Contact](#credits)
+- [Acknowledgment](#acknowledgment)
+
+
+
 ## Help the community to label more data
 
 We also invite you to join us to label tweets related to COVID-19 disinformation.
@@ -24,7 +36,7 @@ An example of the annotation page is as follows:
 ![Example](etc/screenshot_example.png?raw=true "Annotation example")
 
 
-## Questions with the Associated Labels
+## Tasks/Questions with Labels
 Below is the list of the questions and labels.
 
 **1. Does the tweet contain a verifiable factual claim?** <br/>
@@ -101,14 +113,15 @@ claim;
 Please feel free to download the dataset by simply filling up this [form](https://forms.gle/popezW4Lembnin637).
 
 
-## Please cite the following paper if you are using the data or annotation guidelines:
+## Publication:
+Please cite the following paper if you are using the data or annotation guidelines
 
 1. *Firoj Alam, Shaden Shaar, Alex Nikolov, Hamdy Mubarak, Giovanni Da San Martino, Ahmed Abdelali, Fahim Dalvi, Nadir Durrani, Hassan Sajjad, Kareem Darwish, Preslav Nakov, "Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society", arxiv, 2020 [download](https://arxiv.org/pdf/2005.00033.pdf).*
 
 ```bib
 @misc{alam2020fighting,
     title={Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society},
-    author={Firoj Alam and Shaden Shaar and Alex Nikolov and Hamdy Mubarak and Giovanni Da San Martino and Ahmed Abdelali and Fahim Dalvi and Nadir Durrani and Hassan Sajjad and Kareem Darwish and Preslav Nakov},
+    author={Firoj Alam and Shaden Shaar and Fahim Dalvi and Hassan Sajjad and Alex Nikolov and Hamdy Mubarak and Giovanni Da San Martino and Ahmed Abdelali and Nadir Durrani and Kareem Darwish and Preslav Nakov},
     year={2020},
     eprint={2005.00033},
     archivePrefix={arXiv},
@@ -116,7 +129,7 @@ Please feel free to download the dataset by simply filling up this [form](https:
 }
 ```
 
-## CREDITS
+## Credits
 * Firoj Alam, Qatar Computing Research Institute, HBKU
 * Shaden Shaar, Qatar Computing Research Institute, HBKU
 * Alex Nikolov, Sofia University
@@ -129,8 +142,11 @@ Please feel free to download the dataset by simply filling up this [form](https:
 * Kareem Darwish, Qatar Computing Research Institute, HBKU
 * Preslav Nakov, Qatar Computing Research Institute, HBKU
 
+## Licensing
 
-## CONTACT
+This dataset is free for general research use.
+
+## Contact
 Please contact tanbih@qcri.org
 
 ## Acknowledgment
