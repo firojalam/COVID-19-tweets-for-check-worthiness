@@ -6,13 +6,13 @@ This repository contains a dataset consisting of tweets annotated with fine-grai
 To label the dataset, we prepared comprehensive annotation guidelines [1], which can help similar tasks in different domains. Moreover, we launched an annotation platform to label tweets, where anyone can contribute and help increase the size of the dataset, which we will be updating here periodically.
 
 __Table of contents:__
-- [Help the community to label more data](#call-for-arm)
+- [Help the community to label more data](#callforarm)
 - [Tasks/Questions with Labels](#questions)
 - [List of versions](#versions)
 - [Contents of the Distribution](#content_distribution)
   - [Directory Structure](#directorystructure)
   - [Examples](#examples)
-  - [Statistics](#statistics)  
+  - [Statistics](#statistics)
 - [Download](#download)
 - [Publication](#publication)
 - [Credits](#credits)
