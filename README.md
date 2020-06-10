@@ -36,14 +36,11 @@ An example of the annotation page looks as follows:
 ![Example](etc/screenshot_example.png?raw=true "Annotation example")
 
 
-<<<<<<< HEAD
+
 ## Tasks/Questions with Labels
-Below is the list of the questions and labels.
-=======
-## Questions with the Associated Labels
 Below is the list of the questions and the possible labels (answers).
 See the paper below or the above micromappers links for detailed definition of the annotation guidelines.
->>>>>>> origin/master
+
 
 **1. Does the tweet contain a verifiable factual claim?** <br/>
 *Labels:*
@@ -129,7 +126,7 @@ The directory contains the following two sub-directories:
 
 1. "English": This directory contains tab-separated values (i.e., TSV) file, and one JSON file. The TSV file stores ground-truth annotations for the aforementioned tasks. The data format of these files is described in detail below. Each line in the JSON file corresponds to data from a single tweet stored in JSON format (as downloaded from Twitter).  
 
-2. "Arabic": Similarly to English, this directory contains one TSV file and one JSON file using the same format. 
+2. "Arabic": Similarly to English, this directory contains one TSV file and one JSON file using the same format.
 
 Format of the TSV files under the "annotations" directory
 ---------------------------------------------------------
@@ -140,7 +137,7 @@ Each TSV file in this directory contains the following columns, separated by a t
 * q*_label (column 3-9): corresponds to the label for question 1 to 7.
 
 
-Note that there are NA (i.e., null) entries in the TSV files that simply indicate "not applicable" cases. We label NA for question 2 to 5 when question 1 is labeled as NO. 
+Note that there are NA (i.e., null) entries in the TSV files that simply indicate "not applicable" cases. We label NA for question 2 to 5 when question 1 is labeled as NO.
 
 Examples
 =========
@@ -180,7 +177,7 @@ Some statistics about the dataset
 1. Q1	504
 * no	209
 * yes	295
-	
+
 2. Q2	295
 * 1_no_definitely_contains_no_false_info	47
 * 2_no_probably_contains_no_false_info	171
@@ -188,7 +185,7 @@ Some statistics about the dataset
 * 4_yes_probably_contains_false_info	25
 * 5_yes_definitely_contains_false_info	12
 
-	
+
 3. Q3	295
 * 1_no_definitely_not_of_interest	9
 * 2_no_probably_not_of_interest	44
@@ -196,7 +193,7 @@ Some statistics about the dataset
 * 4_yes_probably_of_interest	177
 * 5_yes_definitely_of_interest	58
 
-	
+
 4. Q4	295
 * 1_no_definitely_not_harmful	106
 * 2_no_probably_not_harmful	66
@@ -204,13 +201,13 @@ Some statistics about the dataset
 * 4_yes_probably_harmful	67
 * 5_yes_definitely_harmful	54
 
-	
+
 5. Q5	295
 * no_no_need_to_check	77
 * no_too_trivial_to_check	57
 * yes_not_urgent	112
 * yes_very_urgent	49
-	
+
 6. Q6	504
 * no_joke_or_sarcasm	62
 * no_not_harmful	333
@@ -220,7 +217,7 @@ Some statistics about the dataset
 * yes_panic	23
 * yes_rumor_conspiracy	42
 * yes_xenophobic_racist_prejudices_or_hate_speech	14
-		
+
 Q7	504
 * no_not_interesting	319
 * not_sure	6
@@ -238,7 +235,7 @@ Q7	504
 1. Q1	218
 * no	78
 * yes	140
-	
+
 2. Q2	140
 * 1_no_definitely_contains_no_false_info	31
 * 2_no_probably_contains_no_false_info	62
@@ -246,7 +243,7 @@ Q7	504
 * 4_yes_probably_contains_false_info	40
 * 5_yes_definitely_contains_false_info	2
 
-	
+
 3. Q3	140
 * 1_no_definitely_not_of_interest	1
 * 2_no_probably_not_of_interest	5
@@ -254,7 +251,7 @@ Q7	504
 * 4_yes_probably_of_interest	76
 * 5_yes_definitely_of_interest	49
 
-	
+
 4. Q4	140
 * 1_no_definitely_not_harmful	68
 * 2_no_probably_not_harmful	21
@@ -262,13 +259,13 @@ Q7	504
 * 4_yes_probably_harmful	46
 * 5_yes_definitely_harmful	2
 
-	
+
 5. Q5	140
 * no_no_need_to_check	22
 * no_too_trivial_to_check	55
 * yes_not_urgent	48
 * yes_very_urgent	15
-	
+
 6. Q6	218
 * no_joke_or_sarcasm	2
 * no_not_harmful	159
@@ -277,8 +274,8 @@ Q7	504
 * yes_panic	12
 * yes_rumor_conspiracy	33
 * yes_xenophobic_racist_prejudices_or_hate_speech	6
-	
-	
+
+
 7. Q7	218
 * no_not_interesting	163
 * yes_blame_authorities	13
