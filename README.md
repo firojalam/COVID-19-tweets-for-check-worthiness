@@ -306,6 +306,7 @@ To download the dataset, just fill up this [form](https://forms.gle/popezW4Lembn
 Please cite the following paper if you are using the data or annotation guidelines
 
 1. *Firoj Alam, Shaden Shaar, Alex Nikolov, Hamdy Mubarak, Giovanni Da San Martino, Ahmed Abdelali, Fahim Dalvi, Nadir Durrani, Hassan Sajjad, Kareem Darwish, Preslav Nakov, "Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society", arxiv, 2020 [download](https://arxiv.org/abs/2005.00033).*
+2. *Firoj Alam, Fahim Dalvi, Shaden Shaar, Nadir Durrani, Hamdy Mubarak, Alex Nikolov, Giovanni Da San Martino, Ahmed Abdelali, Hassan Sajjad, Kareem Darwish, Preslav Nakov, "Fighting the COVID-19 Infodemic in Social Media: A Holistic Perspective and a Call to Arms", arxiv, 2020 [download](https://arxiv.org/abs/2007.07996).*
 
 ```bib
 @misc{alam2020fighting,
@@ -315,6 +316,14 @@ Please cite the following paper if you are using the data or annotation guidelin
     eprint={2005.00033},
     archivePrefix={arXiv},
     primaryClass={cs.CL}
+}
+@misc{alam2020fighting,
+    title={Fighting the COVID-19 Infodemic in Social Media: A Holistic Perspective and a Call to Arms},
+    author={Firoj Alam and Fahim Dalvi and Shaden Shaar and Nadir Durrani and Hamdy Mubarak and Alex Nikolov and Giovanni Da San Martino and Ahmed Abdelali and Hassan Sajjad and Kareem Darwish and Preslav Nakov},
+    year={2020},
+    eprint={2007.07996},
+    archivePrefix={arXiv},
+    primaryClass={cs.IR}
 }
 ```
 
