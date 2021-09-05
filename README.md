@@ -302,29 +302,37 @@ To download the dataset, just fill up this [form](https://forms.gle/popezW4Lembn
 
 
 
-## Publication:
-Please cite the following paper if you are using the data or annotation guidelines
+## Publications:
+Please cite the following papers if you are using the data or annotation guidelines
 
-1. *Firoj Alam, Shaden Shaar, Alex Nikolov, Hamdy Mubarak, Giovanni Da San Martino, Ahmed Abdelali, Fahim Dalvi, Nadir Durrani, Hassan Sajjad, Kareem Darwish, Preslav Nakov, "Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society", arxiv, 2020 [download](https://arxiv.org/abs/2005.00033).*
-2. *Firoj Alam, Fahim Dalvi, Shaden Shaar, Nadir Durrani, Hamdy Mubarak, Alex Nikolov, Giovanni Da San Martino, Ahmed Abdelali, Hassan Sajjad, Kareem Darwish, Preslav Nakov, "Fighting the COVID-19 Infodemic in Social Media: A Holistic Perspective and a Call to Arms", arxiv, 2020 [download](https://arxiv.org/abs/2007.07996).*
+1. *Firoj Alam, Fahim Dalvi, Shaden Shaar, Nadir Durrani, Hamdy Mubarak, Alex Nikolov, Giovanni Da San Martino,3Ahmed Abdelali,1Hassan Sajjad,1Kareem Darwish,1Preslav Nakov, "Fighting the COVID-19 Infodemic in Social Media: A Holistic Perspective and a Call to Arms", Proceedings of the International AAAI Conference on Web and Social Media. (Vol. 15, pp. 913-922). 2021. [download](https://ojs.aaai.org/index.php/ICWSM/article/view/18114/17917).*
+2. *Firoj Alam and Shaden Shaar and Fahim Dalvi and Hassan Sajjad and Alex Nikolov and Hamdy Mubarak and Giovanni Da San Martino and Ahmed Abdelali and Nadir Durrani and Kareem Darwish and Abdulaziz Al-Homaid and Wajdi Zaghouani and Tommaso Caselli and Gijs Danoe and Friso Stolk and Britt Bruntink and Preslav Nakov, "Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society", Findings of EMNLP 2021,  [download](https://arxiv.org/abs/2005.00033).*
 
 ```bib
-@misc{alam2020fighting,
-    title={Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society},
-    author={Firoj Alam and Shaden Shaar and Fahim Dalvi and Hassan Sajjad and Alex Nikolov and Hamdy Mubarak and Giovanni Da San Martino and Ahmed Abdelali and Nadir Durrani and Kareem Darwish and Preslav Nakov},
-    year={2020},
-    eprint={2005.00033},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+@InProceedings{alam2020call2arms,
+  title		= {Fighting the {COVID}-19 Infodemic in Social Media: A
+		  Holistic Perspective and a Call to Arms},
+  author	= {Alam, Firoj and Dalvi, Fahim and Shaar, Shaden and
+		  Durrani, Nadir and Mubarak, Hamdy and Nikolov, Alex and {Da
+		  San Martino}, Giovanni and Abdelali, Ahmed and Sajjad,
+		  Hassan and Darwish, Kareem and Nakov, Preslav},
+  year		= {2021},
+  pages		= {913-922},
+  month	= {May},
+  volume	= {15},
+  booktitle	= {Proceedings of the International {AAAI} Conference on Web
+		  and Social Media},
+  series	= {ICWSM~'21},
+  url		= {https://ojs.aaai.org/index.php/ICWSM/article/view/18114}
 }
-@misc{alam2020fighting,
-    title={Fighting the COVID-19 Infodemic in Social Media: A Holistic Perspective and a Call to Arms},
-    author={Firoj Alam and Fahim Dalvi and Shaden Shaar and Nadir Durrani and Hamdy Mubarak and Alex Nikolov and Giovanni Da San Martino and Ahmed Abdelali and Hassan Sajjad and Kareem Darwish and Preslav Nakov},
-    year={2020},
-    eprint={2007.07996},
-    archivePrefix={arXiv},
-    primaryClass={cs.IR}
+@inproceedings{alam2020fighting,
+    title={Fighting the {COVID}-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society},
+    author={Firoj Alam and Shaden Shaar and Fahim Dalvi and Hassan Sajjad and Alex Nikolov and Hamdy Mubarak and Giovanni Da San Martino and Ahmed Abdelali and Nadir Durrani and Kareem Darwish and Abdulaziz Al-Homaid and Wajdi Zaghouani and Tommaso Caselli and Gijs Danoe and Friso Stolk and Britt Bruntink and Preslav Nakov},
+    booktitle = {Findings of EMNLP 2021},
+    year={2021},
 }
+
+
 ```
 
 
