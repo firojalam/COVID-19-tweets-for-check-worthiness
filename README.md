@@ -1,4 +1,4 @@
-# COVID-19 Infodemic Twitter Dataset: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society
+# COVID-19 Infodemic Twitter Dataset
 
 
 This repository contains a dataset consisting of tweets annotated with fine-grained labels related to disinformation about COVID-19. The labels answer seven different questions that are of interests to journalists, fact-checkers, social media platforms, policymakers, and society as a whole. There are annotations for Arabic and English.
